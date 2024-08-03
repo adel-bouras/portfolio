@@ -37,6 +37,14 @@
 
 @media (max-width : 962px) {
 
+    #home img{
+        object-fit: none;
+        object-position: 50% 25%;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }    
+
     #home{
         flex-direction: column;
     }
