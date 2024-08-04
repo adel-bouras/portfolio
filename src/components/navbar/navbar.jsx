@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 export default function NavBar(){
-    const [dark , setDark] = useState(true);
+    const [dark , setDark] = useState(false);
 
 
     const handlMode = ()=>{
