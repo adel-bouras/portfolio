@@ -1,0 +1,12 @@
+#skills{
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 90%;
+    height: 70dvh;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    background-color: var(--secondary-color);
+}

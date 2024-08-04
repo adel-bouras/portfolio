@@ -36,11 +36,11 @@ export default function NavBar(){
                 <label></label></label>
             </div>
         <ul className='unordredist'>
-            <li className='list active'> <a href="">Home</a> </li>
-            <li className='list'> <a href="">About</a> </li>
-            <li className='list'> <a href="">Projects</a> </li>
-            <li className='list'> <a href="">Skills</a> </li>
-            <li className='list'> <a href="">Contact me</a> </li>
+            <li className='list active'> <a href="#home">Home</a> </li>
+            <li className='list'> <a href="#about">About</a> </li>
+            <li className='list'> <a href="#skills">Skills</a> </li>
+            <li className='list'> <a href="#projects">Projects</a> </li>
+            <li className='list'> <a href="#contact">Contact me</a> </li>
         </ul>
     </div>
     )

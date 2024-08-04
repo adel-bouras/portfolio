@@ -73,6 +73,9 @@
   cursor: pointer;
 }
 
+.active{
+  background-color: var(--accent-color);
+}
 
 
 
@@ -109,7 +112,7 @@
     top: 0;
     width: 100%;
     display: flex;
-    right: -150%;
+    right: -200%;
     border-radius: 20px;
     box-shadow: 0 0 20px ;
     list-style: none;
@@ -121,8 +124,8 @@
 
 .unordredist li a , .unordredist li{
   display: flex;
-  justify-content: center;
-  width: 60%;
+  justify-content: start;
+  width: 80%;
   height: 100px;
 }
 
@@ -144,7 +147,7 @@
 
 
 .hamburger-label {
-  width: 70px;
+  width: 50px;
   height: 58px;
   display: block;
   cursor: pointer;
@@ -188,7 +191,7 @@
 }
 
 #label-check:checked ~ .unordredist {
-  right: -50%;
+  right: -70%;
   transition: .5s ease-in-out;
 }
 

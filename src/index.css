@@ -30,6 +30,7 @@ html{
 }
 
 body , #root{
+    padding-bottom: 100px;
     width: 100%;
     background-color: var(--background-color);
     display: flex;
