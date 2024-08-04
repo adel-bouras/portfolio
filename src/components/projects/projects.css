@@ -1,0 +1,42 @@
+#projects{
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex-direction: column;
+    padding: 20px;
+    margin-top:100px ;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    width: 90%;
+    background-color: var(--secondary-color);
+}
+#projects h1 {
+    text-decoration: underline var(--accent-color);
+    text-underline-offset: 9px;
+}
+
+#projects #works{
+    flex-wrap: wrap;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#projects #works img{
+    box-shadow: 0 0 20px ;
+    width: 400px;
+}
+
+@media (max-width : 962px) {
+ 
+    #projects #works img{
+        width: 250px;
+        flex-direction: column;
+    }
+    #projects #works{
+        height: 80dvh;
+    }   
+}
+
