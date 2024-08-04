@@ -1,19 +1,81 @@
-#contact{
-    width: 90%;
+#contact {
+    color: var(--text-color);
+    background-color: var(--secondary-color);
     padding: 20px;
-    margin-top:100px ;
-    border-radius: 20px;
-    box-shadow: 0 0 20px black;
-    height: 80dvh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    width: 90%;
+    margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content:space-between ;
     flex-direction: column;
-    background-color: var(--secondary-color);
+    justify-content: center;
+  }
+
+  #contact-form{
+    width: 30%;
+  }
+  
+  #contact h1 {
+    text-decoration: underline var(--accent-color);
+    text-underline-offset: 9px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid var(--primary-color);
 }
 
-#contact h1{
-    text-decoration: underline var(--accent-color);
-    text-underline-offset: 10px;
-    
+.form-group input:focus,
+.form-group textarea:focus {
+        outline: 2px solid var(--accent-color); 
+        border-color: var(--accent-color); 
+        box-shadow: 0 0 0 2px rgba(var(--accent-color-rgb), 0.2); 
 }
+
+.form-group textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: aqua;
+  }
+
+  button:active {
+    transform: translateY(5px) scaleX(90%) ;
+  }
+  
+
+  @media (max-width : 940px) {
+    #contact-form{
+        width: 70%;
+      }
+  }
